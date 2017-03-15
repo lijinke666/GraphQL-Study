@@ -21,10 +21,10 @@ const schema = new GraphQLSchema({
       user:{
         type:userType,
         args:{                                        //描述参数，用户根据这个来查  
-          id:{ type: graphql.GraphQLString }
+          assetId:{ type: graphql.GraphQLString }
         },
         resolve:(_,args)=>{                           //返回对应id 的数据给用户
-          return userData[args.id]
+          return userData[args.assetId]
         }
       }
     }
