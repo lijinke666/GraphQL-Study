@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start":"node server"
+    "start": "node server"
   },
   "name": "GraphQL-Study",
   "version": "1.0.0",
@@ -9,9 +9,13 @@
   "author": "jinke.li <jinke.li@feitian-tech.com>",
   "license": "MIT",
   "dependencies": {
+    "apollo-server-express": "^1.2.0",
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
     "express-graphql": "^0.6.3",
-    "graphql": "^0.9.1"
+    "graphql": "^0.11.7"
+  },
+  "devDependencies": {
+    "graphql-tools": "^2.6.1"
   }
 }
