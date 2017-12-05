@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "start": "nodemon server",
-    "dev": "node ./apollo-server-express/server.js",
+    "start": "npm run dev-relay-server",
+    "dev-relay-server":"babel-node server.js",
+    "dev-apollo-server": "node ./apollo-server-express/server.js",
     "demo":"nodemon ./demo/server"
   },
   "private": true,

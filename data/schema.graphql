@@ -1,0 +1,12 @@
+type Like {
+    book: String!
+    web: String!
+    song: String
+}
+
+type User {
+    id:String!
+    name:String!
+    sex:String
+    like:Like
+}

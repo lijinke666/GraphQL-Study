@@ -2,7 +2,7 @@ const graphql = require("graphql")
 const { GraphQLObjectType, GraphQLSchema } = graphql
 
 //模拟数据
-const userData = require("./userData.json")
+const userData = require("../data/userData.json")
 
 const LikeType = new GraphQLObjectType({
   name: "Like",
