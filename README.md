@@ -1,9 +1,9 @@
 # GraphQL-Study
 潮流的 GrapQL 试一试
 
-## 本地调试
+## DEMO
 - `cnpm i`
-- `npm start`
+- `npm run demo`
 - open `http://localhost:1996/graphql`
 
 ## 定义Schema
